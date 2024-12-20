@@ -6,3 +6,10 @@ printf("A=%d B=%d",a,b);
 c=a+b;
 printf("RESULT=%d",c);
 }
+//same program using scanf
+#include<stdio.h>
+print("Enter the value of A and B\b");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("RESULT=%d",c);
+}
